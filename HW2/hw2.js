@@ -154,6 +154,138 @@ if (num1 > num2) {
     console.log('Числа рівні');
 }
 
+// ----TASK11----
 
+let x = null;
 
+if (x === null) {
+    x = "default";
+    console.log(x);
+} else if (x === undefined) {
+    x = "default";
+    console.log(x);
+}else if (x === false) {
+    x = "default";
+    console.log(x);
+}else if (x === 0) {
+    x = "default";
+    console.log(x);
+}else if (x === "") {
+    x = "default";
+    console.log(x);
+}else {
+    console.log(x);
+}
 
+x = ""; // Пуста строка
+
+if (x === null) {
+    x = "default";
+    console.log(x);
+} else if (x === undefined) {
+    x = "default";
+    console.log(x);
+}else if (x === false) {
+    x = "default";
+    console.log(x);
+}else if (x === 0) {
+    x = "default";
+    console.log(x);
+}else if (x === "") {
+    x = "default";
+    console.log(x);
+}else {
+    console.log(x);
+}
+
+x = 0; //  0
+
+if (x === null) {
+    x = "default";
+    console.log(x);
+} else if (x === undefined) {
+    x = "default";
+    console.log(x);
+}else if (x === false) {
+    x = "default";
+    console.log(x);
+}else if (x === 0) {
+    x = "default";
+    console.log(x);
+}else if (x === "") {
+    x = "default";
+    console.log(x);
+}else {
+    console.log(x);
+}
+
+x = "HI"; // строка
+
+if (x === null) {
+    x = "default";
+    console.log(x);
+} else if (x === undefined) {
+    x = "default";
+    console.log(x);
+}else if (x === false) {
+    x = "default";
+    console.log(x);
+}else if (x === 0) {
+    x = "default";
+    console.log(x);
+}else if (x === "") {
+    x = "default";
+    console.log(x);
+}else {
+    console.log(x);
+}
+
+x = 3; // 3
+
+if (x === null) {
+    x = "default";
+    console.log(x);
+} else if (x === undefined) {
+    x = "default";
+    console.log(x);
+}else if (x === false) {
+    x = "default";
+    console.log(x);
+}else if (x === 0) {
+    x = "default";
+    console.log(x);
+}else if (x === "") {
+    x = "default";
+    console.log(x);
+}else {
+    console.log(x);
+}
+
+// ----TASK12----
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+if (coursesAndDurationArray[0].monthDuration > 5) {
+    console.log("Супер");
+}
+if (coursesAndDurationArray[1].monthDuration > 5) {
+    console.log("Супер");
+}
+if (coursesAndDurationArray[2].monthDuration > 5) {
+    console.log("Супер");
+}
+if (coursesAndDurationArray[3].monthDuration > 5) {
+    console.log("Супер");
+}
+if (coursesAndDurationArray[4].monthDuration > 5) {
+    console.log("Супер");
+}
+if (coursesAndDurationArray[5].monthDuration > 5) {
+    console.log("Супер");
+}
