@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
+/*=========USERS=============*/
+h1{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+#userContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    font-family: "Jura", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+.user-block {
+    width: 95%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: dodgerblue;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+.user-block button {
+    height: 30px;
+    background-color: yellow;
+    display: block;
+    margin: 10px auto ;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+.user-block button:hover{
+    background-color: deepskyblue;
+}
+
+
+/*=========USERDETAILS============*/
+
+#userDetails {
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    font-family: "Jura", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+
+#postContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+}
+.post-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: yellow;
+    font-family: "Jura", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+button {
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+button:hover{
+    background-color: white;
+}
+.post-block button{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+.post-block button:hover{
+    background-color: white;
+}
+
+/*========POSTDETAILS========*/
+
+#postDetails {
+    background-color: dodgerblue;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    font-family: "Jura", sans-serif;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
+#comentsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: center;
+    font-family: "Jura", sans-serif;
+}
+.comment-block {
+    width: 55%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: yellow;
+    box-shadow: -5px 8px 28px -7px rgba(0,0,0,0.85);
+}
